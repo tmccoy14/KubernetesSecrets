@@ -15,6 +15,12 @@ Usage: ./encodeValue.sh [options]
   ex. ./encodeValue.sh --value admin
 ```
 
+```sh
+🚀 ./encodeValue.sh --value admin
+2021-01-28 12:51:37 [INFO] [encodeValue.sh] ENCODE KUBERNETES SECRET VALUE TO BASE64...
+YWRtaW4K
+```
+
 ### Decode Base64 Kubernetes Secret Value
 
 In order to view and use the contents of the Kubernetes secret you created, you first need to decode the values.
@@ -25,11 +31,11 @@ Usage: ./decodeValue.sh [options]
   -h, --help                  Help
   -v, --value                 Secret value to decode
 
-  ex. ./decodeValue.sh --value YWRtaW4=
+  ex. ./decodeValue.sh --value YWRtaW4K
 ```
 
 ```sh
-🚀 ./decodeValue.sh --value YWRtaW4=
+🚀 ./decodeValue.sh --value YWRtaW4K
 2021-01-28 12:40:03 [INFO] [decodeValue.sh] DECODE BASE64 KUBERNETES SECRET VALUE...
 admin
 ```
