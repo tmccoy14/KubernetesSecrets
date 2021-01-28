@@ -1,2 +1,3 @@
 # KubernetesSecrets
-Easily create base64 encoded values for Kubernetes secrets.
+
+Easily encode and decode values for your Kubernetes secrets.
